@@ -1,0 +1,22 @@
+body::before {
+    display: block;
+    content:'';
+    height: 50px;
+}
+
+#showcase {
+    background-color: black;
+}
+/**mx**/
+@media (min-width: 768px){
+    .news-input {
+        width: 50%;
+    }
+}
+
+#ing-yo img {
+    width: 100px;
+    height: 80px;
+    position: relative;
+
+}
